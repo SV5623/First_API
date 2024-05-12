@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/boba_API.props" />
+</Project>
