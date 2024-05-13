@@ -1,7 +1,10 @@
-﻿namespace Web.API.Models.DTO
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Web.API.Models.DTO
 {
     public class RegionDto
     {
+        [Key]
         public Guid Id { get; set; }
         public string Code { get; set; }
         public string Name { get; set; }

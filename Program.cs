@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+
 using Web.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,8 +11,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+
 builder.Services.AddDbContext<WebDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("WebConnectionString")));
+{
+    options.UseMySQL().UseMySQL(builder.Configuration.GetConnectionString("MySQLConnection") ?? string.Empty);
+});
+
+
+
 
 var app = builder.Build();
 
