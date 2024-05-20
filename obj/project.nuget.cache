@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2309pGYNDauny2AMjZEMvfjXjfqOk7mwBKQ/3zfzXzK2Lbq2ToTlBKzxzsrVls/+B6ZaSUl/NmlGOQiUGmQvrQ==",
+  "dgSpecHash": "O59l3lldFdgSQ1ioyEdz+uO5cjuZRcQMWdrKq9TmXnaxLK5Gv3ZeMMtqvm4O7tvyRNOS+Is81KdghrFMbOj+jQ==",
   "success": true,
-  "projectFilePath": "/home/s623/Media/Try/Практика/GIT_API/boba_API.csproj",
+  "projectFilePath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
   "expectedPackageFiles": [
     "/home/s623/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "/home/s623/.nuget/packages/google.protobuf/3.25.1/google.protobuf.3.25.1.nupkg.sha512",
@@ -39,6 +39,8 @@
     "/home/s623/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
     "/home/s623/.nuget/packages/mysql.data/8.4.0/mysql.data.8.4.0.nupkg.sha512",
     "/home/s623/.nuget/packages/mysql.entityframeworkcore/8.0.2/mysql.entityframeworkcore.8.0.2.nupkg.sha512",
+    "/home/s623/.nuget/packages/mysqlconnector/2.3.5/mysqlconnector.2.3.5.nupkg.sha512",
+    "/home/s623/.nuget/packages/pomelo.entityframeworkcore.mysql/8.0.2/pomelo.entityframeworkcore.mysql.8.0.2.nupkg.sha512",
     "/home/s623/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "/home/s623/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "/home/s623/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

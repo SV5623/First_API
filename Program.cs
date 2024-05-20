@@ -1,6 +1,5 @@
+using boba_API.Data;
 using Microsoft.EntityFrameworkCore;
-
-using Web.API.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +12,7 @@ builder.Services.AddSwaggerGen();
 
 
 
-builder.Services.AddDbContext<WebDbContext>(options =>
+builder.Services.AddDbContext<DyplomContext>(options =>
 {
     options.UseMySQL().UseMySQL(builder.Configuration.GetConnectionString("MySQLConnection") ?? string.Empty);
 });

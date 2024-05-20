@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/s623/Media/Try/Практика/GIT_API/boba_API.csproj": {}
+    "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj": {}
   },
   "projects": {
-    "/home/s623/Media/Try/Практика/GIT_API/boba_API.csproj": {
+    "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/s623/Media/Try/Практика/GIT_API/boba_API.csproj",
+        "projectUniqueName": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
         "projectName": "boba_API",
-        "projectPath": "/home/s623/Media/Try/Практика/GIT_API/boba_API.csproj",
+        "projectPath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
         "packagesPath": "/home/s623/.nuget/packages/",
-        "outputPath": "/home/s623/Media/Try/Практика/GIT_API/obj/",
+        "outputPath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/s623/.nuget/NuGet/NuGet.Config"
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[8.0.2, )"
             },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -94,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
