@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O59l3lldFdgSQ1ioyEdz+uO5cjuZRcQMWdrKq9TmXnaxLK5Gv3ZeMMtqvm4O7tvyRNOS+Is81KdghrFMbOj+jQ==",
+  "dgSpecHash": "W4hqQ31SVqistpwwbTCAbknJbKALmYM7KTvNulU4HbG0PGXpByRQgYLmwX+JXu6woLLgu7zy4JQXG+w0o7SsqQ==",
   "success": true,
-  "projectFilePath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
+  "projectFilePath": "/home/s623/RiderProjects/First_API/boba_API.csproj",
   "expectedPackageFiles": [
     "/home/s623/.nuget/packages/bouncycastle.cryptography/2.2.1/bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "/home/s623/.nuget/packages/google.protobuf/3.25.1/google.protobuf.3.25.1.nupkg.sha512",

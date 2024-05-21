@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class OrderDetail
 {
+    [Key]
     public int OrderDetailId { get; set; }
 
     public int? OrderId { get; set; }

@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Calendar
 {
+    [Key]
     public int CalendarId { get; set; }
 
     public int? MechanicId { get; set; }

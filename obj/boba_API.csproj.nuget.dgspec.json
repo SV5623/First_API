@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj": {}
+    "/home/s623/RiderProjects/First_API/boba_API.csproj": {}
   },
   "projects": {
-    "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj": {
+    "/home/s623/RiderProjects/First_API/boba_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
+        "projectUniqueName": "/home/s623/RiderProjects/First_API/boba_API.csproj",
         "projectName": "boba_API",
-        "projectPath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/boba_API.csproj",
+        "projectPath": "/home/s623/RiderProjects/First_API/boba_API.csproj",
         "packagesPath": "/home/s623/.nuget/packages/",
-        "outputPath": "/home/s623/Media/Try/Практика/GIT_API_Dypl/obj/",
+        "outputPath": "/home/s623/RiderProjects/First_API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/s623/.nuget/NuGet/NuGet.Config"
@@ -98,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

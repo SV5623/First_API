@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Statistic
 {
+    [Key]
     public int StatId { get; set; }
 
     public int? UserId { get; set; }

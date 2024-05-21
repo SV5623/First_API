@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Permission
 {
+    [Key]
     public int PermissionId { get; set; }
 
     public string PermissionName { get; set; } = null!;
