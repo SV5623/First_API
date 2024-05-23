@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Sale
 {
     [Key]
-    public int SaleId { get; set; }
+    public int Id { get; set; }
 
     public int? GoodsId { get; set; }
 

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Mechanic
 {
     [Key]
-    public int MechanicId { get; set; }
+    public int Id { get; set; }
 
     public int? UserId { get; set; }
 
@@ -15,7 +13,7 @@ public partial class Mechanic
 
     public decimal? Rating { get; set; }
 
-    public decimal? Hours { get; set; }
+    public int? Hours { get; set; }
 
     public int? WorkTypeId { get; set; }
 

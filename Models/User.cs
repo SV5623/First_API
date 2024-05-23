@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class User
 {
     [Key]
-    public int UserId { get; set; }
+    public int Id { get; set; }
 
     public string Username { get; set; } = null!;
 
     public string Password { get; set; } = null!;
 
     public string Email { get; set; } = null!;
-
-    public virtual ICollection<Admin> Admins { get; set; } = new List<Admin>();
 
     public virtual ICollection<Client> Clients { get; set; } = new List<Client>();
 
@@ -24,8 +20,6 @@ public partial class User
     public virtual ICollection<Order> Orders { get; set; } = new List<Order>();
 
     public virtual ICollection<Sale> Sales { get; set; } = new List<Sale>();
-
-    public virtual ICollection<Statistic> Statistics { get; set; } = new List<Statistic>();
 
     public virtual ICollection<Role> Roles { get; set; } = new List<Role>();
 }

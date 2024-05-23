@@ -1,4 +1,4 @@
-using boba_API.Data;
+using boba_API.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,10 +12,12 @@ builder.Services.AddSwaggerGen();
 
 
 
-builder.Services.AddDbContext<DyplomContext>(options =>
+builder.Services.AddDbContext<Dyplom2Context>(options =>
 {
-    options.UseMySQL().UseMySQL(builder.Configuration.GetConnectionString("MySQLConnection") ?? string.Empty);
+    options.UseMySql(builder.Configuration.GetConnectionString("MySQLConnection") ?? string.Empty,
+        new MySqlServerVersion(new Version(8, 0, 21))); // Версія вашого MySQL сервера
 });
+
 
 
 

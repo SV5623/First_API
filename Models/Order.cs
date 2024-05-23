@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace boba_API.Models;
 
 public partial class Order
 {
     [Key]
-    public int OrderId { get; set; }
+    public int Id { get; set; }
 
     public int? UserId { get; set; }
 
@@ -15,11 +13,11 @@ public partial class Order
 
     public DateOnly? OrderDate { get; set; }
 
-    public string? Status { get; set; }
+    public int? StatusId { get; set; }
 
     public virtual Mechanic? Mechanic { get; set; }
 
-    public virtual ICollection<OrderDetail> OrderDetails { get; set; } = new List<OrderDetail>();
+    public virtual StatusDictionary? Status { get; set; }
 
     public virtual User? User { get; set; }
 }
