@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("boba_API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e165987b420f9345015d175982c5fba318b9fac1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f259e34e876f5e8b5326a5e4f63e9dab30ec386")]
 [assembly: System.Reflection.AssemblyProductAttribute("boba_API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("boba_API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
