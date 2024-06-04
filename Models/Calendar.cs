@@ -1,25 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace boba_API.Models;
 
-public partial class Calendar
+public class Calendar 
 {
     [Key]
-    public int Id { get; set; }
+    public Guid? Id { get; set; } = null!;
+    // FK
+    public Guid? MechanikId { get; set; } = null!;
+    public Guid? ClientId { get; set; } = null!;
+    public Guid? StatusId { get; set; } = null!;
 
-    public int? MechanicId { get; set; }
-
-    public int? ClientId { get; set; }
-
-    public DateOnly? BookingDate { get; set; }
-
-    public TimeOnly? BookingTime { get; set; }
-
-    public int? StatusId { get; set; }
-
-    public virtual Client? Client { get; set; }
-
-    public virtual Mechanic? Mechanic { get; set; }
-
-    public virtual StatusDictionary? Status { get; set; }
-}
+    public DateTime BookingDate { get; set; }
+    
+    public required Mechanik Mechanik { get; set;}
+    public required Client Client { get; set;}
+    public required Status Status { get; set;}
+} 

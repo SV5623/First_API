@@ -1,23 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace boba_API.Models;
 
-public partial class Client
+public class Client 
 {
     [Key]
-    public int Id { get; set; }
+    public Guid? Id { get; set; } = null!;
+    
+    // foreign keys
+    public Guid? UserId { get; set; } = null!;
+    
+    public string first_name { get; set; }
+    public string last_name { get; set; }
+    public string phone_number { get; set; }
 
-    public int? UserId { get; set; }
-
-    public string? FirstName { get; set; }
-
-    public string? LastName { get; set; }
-
-    public string? PhoneNumber { get; set; }
-
-    public string? Address { get; set; }
-
-    public virtual ICollection<Calendar> Calendars { get; set; } = new List<Calendar>();
-
-    public virtual User? User { get; set; }
+    public AspNetUser User { get; set; }
 }

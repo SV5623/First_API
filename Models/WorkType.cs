@@ -1,13 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace boba_API.Models;
 
-public partial class WorkType
+public class WorkType 
 {
     [Key]
-    public int Id { get; set; }
-
-    public string WorkTypeName { get; set; } = null!;
-
-    public virtual ICollection<Mechanic> Mechanics { get; set; } = new List<Mechanic>();
+    public Guid Id { get; set; }
+    public string Name { get; set; }    
 }

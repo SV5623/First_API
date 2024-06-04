@@ -1,23 +1,20 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace boba_API.Models;
 
-public partial class Order
+public class Order 
 {
     [Key]
-    public int Id { get; set; }
-
-    public int? UserId { get; set; }
-
-    public int? MechanicId { get; set; }
-
-    public DateOnly? OrderDate { get; set; }
-
-    public int? StatusId { get; set; }
-
-    public virtual Mechanic? Mechanic { get; set; }
-
-    public virtual StatusDictionary? Status { get; set; }
-
-    public virtual User? User { get; set; }
+    public Guid? Id { get; set; } = null! ;
+    
+    public Guid? ClientId { get; set; }
+    public Guid? MechanicId { get; set; }
+    public Guid? StatusId { get; set; }
+    
+    public DateTime OrderDate { get; set; }  
+    
+    public required Client Client { get; set; }
+    public required Mechanik Mechanik { get; set; }
+    public required Status Status { get; set; }
 }
